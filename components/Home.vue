@@ -2,17 +2,14 @@
   <div class="home">
     <div class="img-container">
       <div class="text-container">
-        <h1 class="large-title">
-          Amy
-          <br />& Ger
-        </h1>
+        <h1
+          class="large-title"
+        >Lorizzle ipsum dolor pimpin' amizzle, adipiscing shiz. Things crunk crazy, shut the shizzle up volutpizzle, suscipit quis, stuff vizzle, yo. Pellentesque fo shizzle yippiyo. Shiznit erizzle.</h1>
         <h1>03-11-19</h1>
         <h3>We're getting married!</h3>
       </div>
     </div>
-    <div class="main-body__container">
-
-    </div>
+    <div class="main-body__container"></div>
   </div>
 </template>
 
@@ -23,8 +20,8 @@ export default {}
 <style lang="scss" scoped>
 @import '~assets/styles/_variables.scss';
 .home {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 .img-container {
   display: flex;
@@ -41,7 +38,7 @@ export default {}
 .text-container {
   background-color: $secondary-accent-color;
   padding: 0.75rem 4rem;
-  font-family: 'Just Me Again Down Here', cursive;
+  font-family: $secondary-header-font;
 }
 
 .large-title {
